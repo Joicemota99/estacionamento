@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom right,#0964d8,#0d82d9,#1ea3dc, #4ecae2,#38dee0);
+    color: white;
+    font-size: 20px;
+}
+
+body p{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.containerImg{
+    display: flex;
+    justify-content:column;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+img{
+    margin: 0 auto;
+    width: 200px;
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    
+}
+
+#cadastrar{
+    
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    background-color: #002250;
+    color: white ;
+    margin: 0 auto;
+    display: inline-block;
+    font-size:16px;
+    cursor: pointer;
+
+}
+
+table{
+    border-collapse: collapse;
+    background: #002250;
+    color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+
+ 
+}
+
+table td{
+    border: 1px solid #002250;
+    padding: 10px;
+}
+table th{
+    border: 1px solid #002250;
+    padding: 10px;
+    
+}
+
+.delete{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #002250;
+    cursor: pointer;
+}
